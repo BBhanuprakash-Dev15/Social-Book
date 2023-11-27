@@ -9,10 +9,7 @@ Dark Mode: Users can switch between light and dark themes for comfortable viewin
 Search Bar: Enables users to search for specific content, making navigation more accessible.
 
 Technologies Used:
-HTML5
-CSS3
-JavaScript
-
-Usage:
-To use Social Book locally:
+HTML5,
+CSS3,
+JavaScript.
 
