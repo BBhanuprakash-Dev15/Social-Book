@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <!-- left-section -->
+        <div class="nav-left">
+            <img src="images&logo/logo.png" class="logo">
+            <ul>
+                <li><img src="images&logo/notification.png" alt=""></li>
+                <li><img src="images&logo/inbox.png"></li>
+                <li><img src="images&logo/video.png"></li>
+            </ul>
+        </div>
+
+        <!-- right-section -->
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images&logo/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon  online" onclick="settingsMenuToggle()">
+                <img src="images&logo/profile-pic.png">
+            </div>
+        </div>
+
+        <!--   setting-menu     -->
+
+
+        <div class="settings-menu">
+
+
+            <div id="dark-bt" class="dark-bt-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images&logo/profile-pic.png">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images&logo/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images&logo/setting.png" class="setting-icon">
+                    <a href="#">Setting & Privacy <img src="images&logo/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images&logo/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="images&logo/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images&logo/display.png" class="setting-icon">
+                    <a href="#">Help & Accessibility <img src="images&logo/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images&logo/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="images&logo/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <div class="container">
+
+        <!-- left-sidebar -->
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images&logo/news.png"> Latest News</a>
+                <a href="#"><img src="images&logo/friends.png">Friends</a>
+                <a href="#"><img src="images&logo/group.png">Group</a>
+                <a href="#"><img src="images&logo/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images&logo/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p> Your Shortcuts</p>
+                <a href="#"><img src="images&logo/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="images&logo/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="images&logo/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="images&logo/shortcut-4.png">Website Expect</a>
+            </div>
+        </div>
+
+        <!-- main-content -->
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+
+                <div class="story story1">
+                    <img src="images&logo/upload.png">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="images&logo/member-1.png">
+                    <p>Alison</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="images&logo/member-2.png">
+                    <p>Jackson</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="images&logo/member-3.png">
+                    <p>Samona</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="images&logo/member-4.png">
+                    <p>John Deo</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images&logo/profile-pic.png">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Jhon?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images&logo/live-video.png">Live video</a>
+                        <a href="#"><img src="images&logo/photo.png">Photo/video</a>
+                        <a href="#"><img src="images&logo/feeling.png">Feeling/Activity</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images&logo/profile-pic.png">
+
+                        <div>
+                            <p>Jon Nicholson</p>
+                            <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Elevating the coding game with this stellar web development team! 💻✨ From brainstorming sessions to debugging challenges, every moment is a collaborative effort that transforms lines of code into functional, elegant solutions. Grateful for the shared expertise, laughter, and dedication that make our workspace more than just desks and screens—it's a hub of innovation and creativity. Here's to the code we've written and the bonds we've forged. . <a href="#">#Web Developers</a> <a href="#">#Collaborations</a></p>
+                <img src="images&logo/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images&logo/like-blue.png">500</div>
+                        <div><img src="images&logo/comments.png">200</div>
+                        <div><img src="images&logo/share.png">78</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images&logo/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images&logo/profile-pic.png">
+
+                        <div>
+                            <p>Jon Nicholson</p>
+                            <span>June 28 2023, 11:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Sun, sea, and squad-the perfect recipe for a day well spent. 🌊👭👬 <a href="#">#BeachBuddies</a> <a href="#">#BeachVibes</a></p>
+                <img src="images&logo/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images&logo/like-blue.png">400</div>
+                        <div><img src="images&logo/comments.png">150</div>
+                        <div><img src="images&logo/share.png">78</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images&logo/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images&logo/profile-pic.png">
+
+                        <div>
+                            <p>Jon Nicholson</p>
+                            <span>July 05 2023, 09:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Behind every successful website is a team that knows how to have a good time. Hanging out with my web wizards! 🚀💼 <a href="#">#DevLife</a> <a href="#">#WebDevVibes</a></p>
+                <img src="images&logo/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images&logo/like.png">400</div>
+                        <div><img src="images&logo/comments.png">150</div>
+                        <div><img src="images&logo/share.png">78</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images&logo/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images&logo/profile-pic.png">
+
+                        <div>
+                            <p>Jon Nicholson</p>
+                            <span>July 12 2023, 11:50 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Crafting digital dreams, one line of code at a time. 🚀💻<a href="#">WebDevelopmentWizard</a> 
+                <img src="images&logo/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images&logo/like.png">400</div>
+                        <div><img src="images&logo/comments.png">150</div>
+                        <div><img src="images&logo/share.png">78</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images&logo/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images&logo/profile-pic.png">
+
+                        <div>
+                            <p>Jon Nicholson</p>
+                            <span>July 15 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Empowering Dreams, Empowering Teams.<a href="#">Teamwork</a> <a href="#">Innovation</a></p>
+                <img src="images&logo/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images&logo/like-blue.png">400</div>
+                        <div><img src="images&logo/comments.png">150</div>
+                        <div><img src="images&logo/share.png">78</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images&logo/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="Load-more">Load More</button>
+
+
+        </div>
+
+        <!-- right-sidebar -->
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>may</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images&logo/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hiden Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images&logo/member-1.png">
+                </div>
+                <p>Alison mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images&logo/member-2.png">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images&logo/member-3.png">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
